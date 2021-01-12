@@ -1,0 +1,38 @@
+nav {
+    text-align: right;
+    margin: 5px;
+    padding: 15px;
+}
+nav a{
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.blue{
+    background-color: #4285f4;
+    color: #fff;
+    border-color: #4285f4;
+    padding: 6px;
+    width: 70px;
+    height: 30px;
+    margin: auto;
+    
+}
+
+main img{
+    margin-top: 100px;
+    margin-left: 575px;
+    margin-right:10px;
+    padding-bottom: 30px;
+    }
+
+.underLogo {
+    margin-top: 7px;
+    margin-left: 575px;
+    margin-right:10px;
+    margin-bottom: 5px;
+    outline-width: 1200px;
+
+}    
