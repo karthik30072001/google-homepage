@@ -26,13 +26,62 @@ main img{
     margin-left: 575px;
     margin-right:10px;
     padding-bottom: 30px;
+    text-align: center;
     }
 
-.underLogo {
-    margin-top: 7px;
-    margin-left: 575px;
-    margin-right:10px;
-    margin-bottom: 5px;
-    outline-width: 1200px;
+.underLogo{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.innerSearchbar{ 
+    margin-bottom: 10px;
 
-}    
+}
+.offers{
+    text-align: center;
+    font-size: small;
+    
+    padding: 0 3px; 
+    }
+a { 
+    text-decoration: none;
+    padding: 0 3px;
+
+}
+#boxBottom{
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        
+}
+.boxBackground{
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #dadce0;
+}
+.bottomLeft{
+    color: rgba(0,0,0,.54);
+    padding-left: 27px;
+}
+
+#under{
+    text-decoration: none;
+}
+
+.underLeft{
+    float: left;
+    color: rgba(0,0,0,.54);
+    padding: 20px;   
+}
+.underRight{
+    float: right;
+    color: rgba(0,0,0,.54);
+    
+    padding: 20px;
+    
+
+}

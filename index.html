@@ -14,26 +14,34 @@
     </nav>
     <main>
         <img src="google_logo.png" alt="Google Logo">
-       <div class="underLogo"><input type="text"></div> 
-        <button class="underSearchbarLeft">Google Search</button>
-        <button class="underSearchbarRight">I'm feeling Lucky</button>
-        <p>
-        Google offered in: <a href="#">Hindi</a> <a href="#">Tamil</a> <a href="#">Malayalam</a> <a href="#">Telungu</a>
+       <div class="underLogo" style="height: 118px;">
+           <div class=innerSearchbar><input type="text"></div>
+    
+       <div id="searchCenter">
+        <input type="submit" value="Google Search" aria-label="Google Search">
+        <input type="submit" value="I'am feeling lucky!" aria-label="I'am feeling lucky!">
+        </div>
+        <p class="offers">
+        Google offered in: <a href="#"> हिन्दी</a> <a href="#"> தமிழ்</a><a href="#">मराठी</a><a href="#">ਪੰਜਾਬੀ</a> <a
+         href="#"> తెలుగు</a> <a href="#">ಕನ್ನಡ</a>
         </p>
     </main>
 
     <footer>
+        <div id="boxBottom" class="boxBackground">
         <p class="bottomLeft">India</p>
-        <div id="UnderLeft"><a href="#">Advertising</a>
-        <a href="#">Business</a>
-        <a href="#">About</a>
-        <a href="#">How Search Works</a>
+        
+        <div id="under">
+            <a class="underLeft" href="#">Advertising</a>
+        <a  class="underLeft" href="#">Business</a>
+        <a class="underLeft" href="#">About</a>
+        <a  class="underLeft" href="#">How Search Works</a>
+        
+            <a  class="underRight" href="#">Privacy</a>
+            <a  class="underRight" href="#">Terms</a>
+            <a  class="underRight" href="#">Setting</a>
         </div>
-        <div id="UnderRight">
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
-            <a href="#">Setting</a>
-        </div>
+    </div>
     </footer>
 </body>
 </html>
